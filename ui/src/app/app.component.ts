@@ -20,7 +20,8 @@ import { log } from './logging';
 import { User } from './model';
 import { TestSupportService } from './store/test-support.service';
 import { TourService } from 'ngx-tour-ngx-bootstrap';
-import { NotificationService } from 'app/common/ui-patternfly/notification-service';
+import { NotificationService } from './common/ui-patternfly/notification-service';
+import $ from 'jquery/dist/jquery';
 
 @Component({
   selector: 'syndesis-root',

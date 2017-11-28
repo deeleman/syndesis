@@ -13,8 +13,8 @@ import {
   FileUploader,
   FileItem,
   ParsedResponseHeaders
-} from 'ng2-file-upload-base/src';
-import { NotificationService } from 'app/common/ui-patternfly/notification-service';
+} from 'ng2-file-upload';
+import { NotificationService } from './../../common/ui-patternfly/notification-service';
 
 @Component({
   selector: 'syndesis-integrations-list-page',

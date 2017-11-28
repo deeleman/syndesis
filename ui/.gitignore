@@ -3,6 +3,7 @@
 # compiled output
 /dist
 /tmp
+/out-tsc
 /documentation
 
 # dependencies
@@ -43,4 +44,3 @@ Thumbs.db
 
 src/config.json
 src/config.json.bak
-users.json

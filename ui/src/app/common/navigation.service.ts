@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+import $ from 'jquery/dist/jquery';
 
 @Injectable()
 export class NavigationService {

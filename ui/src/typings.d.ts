@@ -28,3 +28,9 @@ declare class EventSource {
 interface JQuery {
   matchHeight(options?: any): any;
 }
+
+/* SystemJS module definition - Required to prevent exceptions in AtlasMapper */
+declare var module: NodeModule;
+interface NodeModule {
+  id: string;
+}

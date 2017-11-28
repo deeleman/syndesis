@@ -1,6 +1,6 @@
 {
   "rulesDirectory": [
-    "node_modules/codelyzer"
+    "ui/node_modules/codelyzer"
   ],
   "rules": {
     // ***************************************************
@@ -204,12 +204,14 @@
       "Page"
     ],
     "component-selector": [
+      true,
       "element",
       ["syndesis"],
       "kebab-case"
     ],
     "directive-class-suffix": true,
     "directive-selector": [
+      true,
       "attribute",
       ["syndesis"],
       "camelCase"

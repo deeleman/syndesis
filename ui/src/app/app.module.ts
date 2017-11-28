@@ -1,9 +1,4 @@
-import {
-  APP_INITIALIZER,
-  NgModule,
-  NgZone,
-  InjectionToken
-} from '@angular/core';
+import { APP_INITIALIZER, NgModule, InjectionToken } from '@angular/core';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { BrowserModule } from '@angular/platform-browser';
@@ -62,7 +57,6 @@ export function restangularProviderConfigurer(
     return data;
   });
 }
-
 export const RESTANGULAR_MAPPER = new InjectionToken<Restangular>(
   'restangularMapper'
 );
@@ -78,21 +72,6 @@ export function mapperRestangularProvider(
   });
 }
 
-/**
- * The main module of this library. Example usage:
- *
- * ```typescript
- * import { AppModule } from 'syndesis-ui';
- *
- * &commat;NgModule({
- *   imports: [
- *     AppModule.forRoot()
- *   ]
- * })
- * class AppModule {}
- * ```
- *
- */
 @NgModule({
   declarations: [AppComponent],
   imports: [
